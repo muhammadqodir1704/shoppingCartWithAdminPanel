@@ -1,0 +1,25 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+
+.cart-item img {
+    margin-right: 15px;
+}
+.cart-item-details{
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.cart-item-details h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+.fa-solid{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+    margin-right: 20px;
+}
